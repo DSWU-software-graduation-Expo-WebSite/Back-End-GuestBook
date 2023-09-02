@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const mongodb = require('mongodb');
 
-const mongoURL = 'mongodb+srv://chaeeun:rkdcodms2002!@atlascluster.5ribwrk.mongodb.net/';
+const mongoURL = 'mongodb+srv://[이름:비밀번호]@atlascluster.5ribwrk.mongodb.net/';
 const dbName = 'erd';
 const collectionName = 'project';
 
